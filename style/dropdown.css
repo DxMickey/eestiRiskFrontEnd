@@ -1,0 +1,22 @@
+#dropdown{
+    border: 2px solid black;
+    padding: 8px;
+    padding-right: 4px;
+    float: left;
+    display: block;
+    
+}
+.listElement{
+    display: block;
+    margin: 10px;
+    padding: 2px;
+}
+.listElement:hover{
+    opacity: 0.8;
+}
+.green{
+    background: rgb(68, 224, 68);
+}
+.red{
+    background:red
+}
