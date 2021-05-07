@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000');
+const socket = io('https://eestiriskserver.herokuapp.com');
 
 socket.on('init',handleInit);
 socket.on('gameState',handleGameState);
